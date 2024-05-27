@@ -1,0 +1,47 @@
+ body{
+    background-color:palegreen
+    font-family: 'Gill Sans, 'Gill Sans MT', 'Calibri', ' Trebutech MS', 'sansi-serif'
+}
+
+.cat{
+background-color: blueviolet;
+margin: 0.5em;
+padding: 1em;
+border-radius: 1em;
+border: 3px solid blueviolet;
+}
+
+.cats{
+display: flex;
+flex: 1;    
+}
+
+
+@media(min-width : 960 px) {
+
+    .cats{
+        display: flex;
+    }
+}
+
+fieldset{
+    margin: 1em;
+    border: 0;
+button{
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 0.5em;
+}
+
+input{
+    padding: 1em;
+}
+
+
+
+
+
+}
+
+
+
